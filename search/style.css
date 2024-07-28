@@ -1,11 +1,23 @@
-.maincontainer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 100%;
+*{
+    margin: 0px;
 }
 .navigation{
     display: flex;
+    background-color: #242832;
     flex-direction: row;
-    justify-content: space-evenly;
+    padding: 20px;
+    justify-content: flex-start;
+    gap:20px;
+
+}
+.item{
+    color: white;
+}
+.navigation .item a {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit the white color from the parent */
+}
+
+.navigation .item a:hover{
+    text-decoration: underline;
 }
