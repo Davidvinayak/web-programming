@@ -4,3 +4,8 @@
     flex-wrap: wrap;
     height: 100%;
 }
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
