@@ -30,7 +30,13 @@ body{
     display: flex;
     gap: 20px; /* Space between items */
 }
-#image-section{
+.image-section{
     display: flex;
     height: 150px;
+    justify-content: center;
+    flex-direction: row;
+}
+.image-section > .image{
+    display: block;
+    justify-content: center;
 }
