@@ -30,3 +30,7 @@ body{
     display: flex;
     gap: 20px; /* Space between items */
 }
+#image-section{
+    display: flex;
+    height: 150px;
+}
