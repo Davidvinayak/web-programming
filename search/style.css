@@ -3,12 +3,12 @@
     padding: 0px;
 }
 body{
-    background-color: #242832;
+    background-color:#1f1f1f;
 }
 .navigation{
     display: flex;
     height: 60px;
-    background-color: #242832;
+    background-color:    #1f1f1f;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -35,8 +35,13 @@ body{
     height: 150px;
     justify-content: center;
     flex-direction: row;
+    margin: 20px;
 }
 .image-section > .image{
     display: block;
+    justify-content: center;
+}
+.form > form{
+    display: flex;
     justify-content: center;
 }
