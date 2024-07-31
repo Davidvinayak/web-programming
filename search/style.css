@@ -131,4 +131,15 @@ body{
 .right-nav {
     flex: 1; /* Take up remaining space on the right */
     justify-content: flex-end; /* Align items to the right within this section */
+
+}
+.bnav a{
+    color: white; /* Text color for links */
+    font-size: 16px; /* Font size for readability */
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.bnav a:hover{
+    text-decoration: underline;
 }
