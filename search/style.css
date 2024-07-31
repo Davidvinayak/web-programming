@@ -94,7 +94,7 @@ body{
     left: 0;
     background: transparent;
   }
-.bottomnavbar > .nav1{
+.bottomnavbar  .nav1{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -133,13 +133,24 @@ body{
     justify-content: flex-end; /* Align items to the right within this section */
 
 }
-.bnav a{
-    color: white; /* Text color for links */
-    font-size: 16px; /* Font size for readability */
+/* Apply general styles to links within .left-nav and .bnav in .nav2 */
+.bottomnavbar>.nav2>.left-nav>.bnav>a{
+    color: white;
+    font-size: 16px;
     padding-right: 20px;
-    text-decoration: none;
+    text-decoration: none; /* Default styling for links */
+}
+.bottomnavbar>.nav2>.right-nav>.bnav>a{
+    color: white;
+    font-size: 16px;
+    padding-right: 20px;
+    text-decoration: none; /* Default styling for links */
 }
 
-.bnav a:hover{
-    text-decoration: underline;
+/* Apply underline to links in .left-nav and .bnav on hover */
+.bottomnavbar> .nav2 >.left-nav >.bnav >a:hover{
+    text-decoration: underline; /* Underline on hover */
+}
+.bottomnavbar >.nav2 >.right-nav >.bnav >a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
