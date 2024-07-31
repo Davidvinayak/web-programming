@@ -83,4 +83,52 @@ body{
   .buttons > a:hover{
     background-color: darkslategrey;
   }
-  
+  .bottomnavbar{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+  }
+.bottomnavbar > .nav1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: whitesmoke;
+    padding-left: 20px;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin: 10px;
+    
+}
+.bottomnavbar > .nav2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+
+}
+
+.left-nav, .right-nav {
+    display: flex;
+    gap: 10px; /* Space between items within each group */
+    color: wheat;
+}
+
+.left-nav {
+    flex: 1; /* Take up remaining space on the left */
+}
+
+.right-nav {
+    flex: 1; /* Take up remaining space on the right */
+    justify-content: flex-end; /* Align items to the right within this section */
+}
