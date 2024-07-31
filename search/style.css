@@ -187,7 +187,27 @@ body{
 .googleimage p{
     color: antiquewhite;
     display: inline-block;
-    float: right;
     text-wrap: wrap;
+}
+.frm {
+    display: flex;
+    width:500px;
+    padding: 14px;
+    border-radius: 28px;
+    position: relative;
+    margin: auto;
+    background: transparent;
+    border: solid gray;
+}
+.frminput {
+    border-radius: 28px;
+    height: 20px;
+    position: absolute;
+    width: 100%; /* Ensure input takes the full width of its container */
+    padding-left: 40px; /* Space for the icon */
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
 
 }
