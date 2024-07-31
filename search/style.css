@@ -68,10 +68,19 @@ body{
 .buttons{
     display: flex;
     align-items: center;
-    height: 60px;
+    justify-content: center;
+    margin: 20px;
 }
-.buttons >.gsearch{
-    display: flex;
-    align-items: center;
-}
-
+.button {
+    background-color: #333438;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .buttons > a:hover{
+    background-color: darkslategrey;
+  }
+  
