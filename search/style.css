@@ -154,3 +154,40 @@ body{
 .bottomnavbar >.nav2 >.right-nav >.bnav >a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+.searchpage{
+    display: flex;
+    height: 48px;
+    margin: 20px;
+}
+.searchpage>.nav_img{
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+    width: 100%;
+}
+.searchpage .link a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+    font-size: 16px;
+    margin: 10px;
+    height: 117px;
+}
+.searchpage .link a:hover {
+    text-decoration: underline;
+}
+.googleimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.googleimage p{
+    color: antiquewhite;
+    display: inline-block;
+    float: right;
+    text-wrap: wrap;
+
+}
