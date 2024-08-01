@@ -115,9 +115,10 @@ body{
     max-height: 100%;
 }
 .googleimage p{
-    color: antiquewhite;
+    color: blue;
     display: inline-block;
     text-wrap: wrap;
+
 }
 .frm {
     display: flex;
