@@ -186,3 +186,40 @@ body{
 .grid-container a:hover{
     text-decoration: underline;
 }
+.upper-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 48px;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.left > a{
+    text-decoration: none;
+    color: white;
+}
+.left a:hover{
+    text-decoration: underline;
+}
+.right > a{
+    text-decoration: none;
+    color: white;
+}
+.right a:hover{
+    text-decoration: underline;
+}
+.hclass{
+    color: rgb(145, 8, 8);
+    margin: 10px;
+    height: 60px;
+    width: 100%;
+    font-size: x-large;
+}
