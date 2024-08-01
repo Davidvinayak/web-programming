@@ -83,77 +83,7 @@ body{
   .buttons > a:hover{
     background-color: darkslategrey;
   }
-  .bottomnavbar{
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    justify-content: flex-end;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: transparent;
-  }
-.bottomnavbar  .nav1{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    color: whitesmoke;
-    padding-left: 20px;
-    height: 50px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    margin: 10px;
-    
-}
-.bottomnavbar > .nav2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin: 10px;
-
-}
-
-.left-nav, .right-nav {
-    display: flex;
-    gap: 10px; /* Space between items within each group */
-    color: wheat;
-}
-
-.left-nav {
-    flex: 1; /* Take up remaining space on the left */
-}
-
-.right-nav {
-    flex: 1; /* Take up remaining space on the right */
-    justify-content: flex-end; /* Align items to the right within this section */
-
-}
-/* Apply general styles to links within .left-nav and .bnav in .nav2 */
-.bottomnavbar>.nav2>.left-nav>.bnav>a{
-    color: white;
-    font-size: 16px;
-    padding-right: 20px;
-    text-decoration: none; /* Default styling for links */
-}
-.bottomnavbar>.nav2>.right-nav>.bnav>a{
-    color: white;
-    font-size: 16px;
-    padding-right: 20px;
-    text-decoration: none; /* Default styling for links */
-}
-
-/* Apply underline to links in .left-nav and .bnav on hover */
-.bottomnavbar> .nav2 >.left-nav >.bnav >a:hover{
-    text-decoration: underline; /* Underline on hover */
-}
-.bottomnavbar >.nav2 >.right-nav >.bnav >a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
+ 
 .searchpage{
     display: flex;
     height: 48px;
@@ -210,4 +140,48 @@ body{
     border: none;
     color: white;
 
+}
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.grid1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    margin: 10px;
+    border-bottom: 1px solid  gainsboro;
+}
+.grid2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grid2 > .litem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.litem > .lg{
+    margin: 10px;
+}
+.ritem > .rg{
+    margin: 10px;
+}
+.grid2 > .ritem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10px;
+}
+.grid-container a{
+     text-decoration: none;
+     color: white;
+}
+.grid-container a:hover{
+    text-decoration: underline;
 }
