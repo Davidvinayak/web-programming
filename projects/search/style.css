@@ -228,6 +228,7 @@ body{
     padding: 20px 25px;
     margin:auto;
     flex-direction: column;
+    justify-content: space-between;
     width: 80%;
 }
 .find {
@@ -251,7 +252,19 @@ body{
   align-items: center;
 }
 .item1 > div{
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 5px;
+    color: white;
+}
+.item1 > .i1{
+    display: flex;
+    justify-content: flex-start;
+}
+.item1 > .i2{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
 }
 .item{
     justify-content: space-between
