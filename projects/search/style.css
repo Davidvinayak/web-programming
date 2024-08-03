@@ -17,7 +17,6 @@ body{
 }
 .item{
     color: white;
-    margin-left: 15px;
 }
 .navigation .item a {
     text-decoration: none; 
@@ -286,5 +285,24 @@ body{
     text-decoration: none;
   }
   .foot > a:hover{
+    text-decoration: underline;
+  }
+  .bottom {
+    display: flex;
+    margin: 10px;
+    color: white;
+    flex-direction: column;
+  }
+  .bottom > .end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .end  a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+  }
+  .end a:hover{
     text-decoration: underline;
   }
